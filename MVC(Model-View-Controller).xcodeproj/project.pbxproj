@@ -12,6 +12,11 @@
 		956B57522043D8A600024CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956B57502043D8A600024CBB /* Main.storyboard */; };
 		956B57542043D8A600024CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956B57532043D8A600024CBB /* Assets.xcassets */; };
 		956B57572043D8A600024CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956B57552043D8A600024CBB /* LaunchScreen.storyboard */; };
+		956B57602043D8C800024CBB /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B575E2043D8C800024CBB /* CustomTVC.swift */; };
+		956B57612043D8C800024CBB /* CustomTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 956B575F2043D8C800024CBB /* CustomTVC.xib */; };
+		956B57632043DA4A00024CBB /* WebserviesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B57622043DA4A00024CBB /* WebserviesHandler.swift */; };
+		956B57652043DAC600024CBB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B57642043DAC600024CBB /* Utilities.swift */; };
+		956B57672043DAD700024CBB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B57662043DAD700024CBB /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		956B57532043D8A600024CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		956B57562043D8A600024CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		956B57582043D8A600024CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956B575E2043D8C800024CBB /* CustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
+		956B575F2043D8C800024CBB /* CustomTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTVC.xib; sourceTree = "<group>"; };
+		956B57622043DA4A00024CBB /* WebserviesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviesHandler.swift; sourceTree = "<group>"; };
+		956B57642043DAC600024CBB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		956B57662043DAD700024CBB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				956B574C2043D8A600024CBB /* AppDelegate.swift */,
 				956B574E2043D8A600024CBB /* ViewController.swift */,
+				956B57622043DA4A00024CBB /* WebserviesHandler.swift */,
+				956B575E2043D8C800024CBB /* CustomTVC.swift */,
+				956B57662043DAD700024CBB /* Model.swift */,
+				956B575F2043D8C800024CBB /* CustomTVC.xib */,
+				956B57642043DAC600024CBB /* Utilities.swift */,
 				956B57502043D8A600024CBB /* Main.storyboard */,
 				956B57532043D8A600024CBB /* Assets.xcassets */,
 				956B57552043D8A600024CBB /* LaunchScreen.storyboard */,
@@ -125,6 +140,7 @@
 			files = (
 				956B57572043D8A600024CBB /* LaunchScreen.storyboard in Resources */,
 				956B57542043D8A600024CBB /* Assets.xcassets in Resources */,
+				956B57612043D8C800024CBB /* CustomTVC.xib in Resources */,
 				956B57522043D8A600024CBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +154,10 @@
 			files = (
 				956B574F2043D8A600024CBB /* ViewController.swift in Sources */,
 				956B574D2043D8A600024CBB /* AppDelegate.swift in Sources */,
+				956B57602043D8C800024CBB /* CustomTVC.swift in Sources */,
+				956B57672043DAD700024CBB /* Model.swift in Sources */,
+				956B57652043DAC600024CBB /* Utilities.swift in Sources */,
+				956B57632043DA4A00024CBB /* WebserviesHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
