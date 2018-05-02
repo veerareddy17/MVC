@@ -23,16 +23,12 @@ class ViewController: UIViewController {
         self.tblVC.register(UINib(nibName: "CustomTVC", bundle: nil), forCellReuseIdentifier: "CustomTVC")
         self.tblVC.delegate = self
         self.tblVC.dataSource = self
-        
         let parameters = "method=fetchingrhs"
-        
         HealthAaadhar.shared.apiRequestWithParameters(basic_URL, parameters) { (response) in
-            
             print(response as NSDictionary)
             print(response["info"] as! NSArray)
             self.responseData = response["info"] as! NSArray
             print(self.responseData)
-            
             for i in 0..<self.responseData.count{
                 let parse = RHS().parseRhsData(dictionary: self.responseData[i] as! NSDictionary)
                 self.data.append(parse)
