@@ -59,9 +59,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         cell.cellView.layer.borderColor = UIColor.gray.cgColor
         cell.cellView.layer.borderWidth = 1.0
         cell.cellView.layer.cornerRadius = 5.0
-        
         cell.title.text = "\(self.data[indexPath.row].des!)"
-        
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
